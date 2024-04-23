@@ -3173,6 +3173,7 @@
 #include "code\modules\spells\roguetown\jester.dm"
 #include "code\modules\spells\roguetown\monk.dm"
 #include "code\modules\spells\roguetown\priest.dm"
+#include "code\modules\spells\roguetown\roguebook.dm"
 #include "code\modules\spells\roguetown\spider.dm"
 #include "code\modules\spells\roguetown\wizard.dm"
 #include "code\modules\spells\spell_types\aimed.dm"
