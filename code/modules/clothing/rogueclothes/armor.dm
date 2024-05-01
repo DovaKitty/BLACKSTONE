@@ -274,6 +274,12 @@
 	allowed_sex = list(MALE)
 	allowed_race = list("human", "tiefling", "aasimar")
 
+/obj/item/clothing/suit/roguetown/armor/gambeson/black
+	name = "black gambeson"
+	icon_state = "bgamb"
+	allowed_sex = list(MALE)
+	allowed_race = list("human", "tiefling", "aasimar")
+
 /obj/item/clothing/suit/roguetown/armor/leather
 	name = "leather armor"
 	desc = ""

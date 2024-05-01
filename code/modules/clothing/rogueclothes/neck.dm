@@ -38,7 +38,16 @@
 					H.update_inv_neck()
 					H.update_inv_head()
 
-
+/obj/item/clothing/neck/roguetown/lcollar
+	name = "leather high collar"
+	icon_state = "lcollar"
+	flags_inv = HIDEFACIALHAIR
+	armor = list("melee" = 13, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
+	max_integrity = 150
+	slot_flags = ITEM_SLOT_NECK
+	body_parts_covered = NECK|EARS|MOUTH|NOSE
+	prevent_crits = list(BCLASS_CUT, BCLASS_CHOP, BCLASS_BLUNT)
+	blocksound = SOFTHIT
 
 /obj/item/clothing/neck/roguetown/chaincoif
 	name = "chain coif"
