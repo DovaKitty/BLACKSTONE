@@ -78,6 +78,19 @@
 	name = "pants"
 	icon_state = "sailorpants"
 
+/obj/item/clothing/under/roguetown/harem
+	name = "harem pants"
+	desc = "It's hammer time!"
+	icon_state = "revealharem"
+	r_sleeve_status = SLEEVE_NOMOD
+	l_sleeve_status = SLEEVE_NOMOD
+	color = CLOTHING_BROWN
+
+/obj/item/clothing/under/roguetown/harem/revealing
+	name = "revealing harem pants"
+	icon_state = "revealharem"
+	color = CLOTHING_BLUE
+
 /obj/item/clothing/under/roguetown/trou
 	name = "work trousers"
 	desc = ""
