@@ -48,11 +48,11 @@
 	C.holder_mob = H
 	H.verbs += list(/mob/living/carbon/human/proc/devotionreport, /mob/living/carbon/human/proc/clericpray)
 	C.grant_spells_priest(H)
+	if(H.gender == FEMALE)
+		H.underwear = "Fembdancer"
+		H.underwear_color = CLOTHING_BLACK
+		H.update_body()
 
-//	ADD_TRAIT(H, RTRAIT_NOBLE, TRAIT_GENERIC)
-//		H.underwear = "Femleotard"
-//		H.underwear_color = CLOTHING_BLACK
-//		H.update_body()
 
 
 /mob/living/carbon/human/proc/coronate_lord()

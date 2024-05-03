@@ -648,6 +648,12 @@
 	specuse = ALL_RACES_LIST
 	roundstart = FALSE
 
+/datum/sprite_accessory/underwear/female_bdancer
+	name = "Fembdancer"
+	icon_state = "female_bdancer"
+	gender = FEMALE
+	specuse = ALL_RACES_LIST
+
 //#endif
 ////////////////////////////
 // Undershirt Definitions //
